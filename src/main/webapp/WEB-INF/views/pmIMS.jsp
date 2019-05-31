@@ -21,7 +21,7 @@
 <%@include file="/WEB-INF/views/header.jspf"%>
 <div class="container">
 
-    <header>Products</header>
+    <header>Wyniki sprzedaży: IMS</header>
 
     <div class="card mt-4">
         <div class="card-body">

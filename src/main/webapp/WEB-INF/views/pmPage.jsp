@@ -19,6 +19,7 @@
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jspf"%>
+<br>
 <div class="container">
 
     <header>Products</header>

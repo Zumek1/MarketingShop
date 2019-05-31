@@ -35,7 +35,7 @@
             <c:set var="total" value="${total+items.amount}"></c:set>
         </c:forEach>
             <tr>${total} PLN</tr>
-            <tr> <button type="button" style="float:right" class="btn btn-primary btn-small">Zamów</button></tr>
+            <tr> <input type="submit" value="Zamów" style="float:right" class="btn btn-primary btn-small"></input></tr>
         </div>
 
     </div>
@@ -53,7 +53,9 @@
                 </tr>
 
                 <c:forEach items="${cart}" var="items">
+                    <form:form method="post" modelAttribute="orderItem">
                         <tr>
+                            <form:hidden path="product.id" value="${items.product.id}"/>
                             <td>${items.product.name}</td>
                             <td>${items.quantity}</td>
                             <td>${items.amount} PLN</td>
@@ -61,6 +63,7 @@
                                 <input type="submit" class="btn btn-danger" value="Usuń"/>
                             </td>
                         </tr>
+                    </form:form>
                 </c:forEach>
 
             </table>

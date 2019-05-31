@@ -19,9 +19,19 @@
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jspf"%>
+<br>
 <div class="container">
 
     <header>Products</header>
+    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
+        <div class="card-header">
+            Budżet
+        </div>
+        <div class="card-body text-black">
+            ${userSession.budzet} PLN
+        </div>
+
+    </div>
 
     <div class="card mt-4">
         <div class="card-body">
@@ -43,7 +53,7 @@
                         <form:hidden path="product.id" value="${product.id}"/>
                         <td>${product.name}</td>
                         <td>${product.medicalLine}</td>
-                        <td>${product.price}</td>
+                        <td>${product.price} PLN</td>
                         <td ><form:input name="ilosc" style="width: 30%" path="quantity"/></td>
                         <td>${product.magQuantity}</td>
                         <td>

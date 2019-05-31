@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.WebApplicationContext;
-import pl.coderslab.app.orders.Order;
+import pl.coderslab.app.cart.CartItemService;
 import pl.coderslab.app.orders.OrderItem;
 import pl.coderslab.app.orders.OrderService;
 import pl.coderslab.app.product.Product;
@@ -32,6 +32,8 @@ public class PmController {
     ProductService productService;
     @Autowired
     PmService pmService;
+    @Autowired
+    CartItemService cartItemService;
 
     @GetMapping("/home")
     public String homePage(Model model){
@@ -52,8 +54,18 @@ public class PmController {
         }
         else {
             List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("cart");
-            orderItems.add(orderItem);
-            session.setAttribute("cart",orderItems);
+            int index = cartItemService.isExisting(orderItem.getProduct().getId(),orderItems);
+            if(index==-1){
+                orderItems.add(orderItem);
+                session.setAttribute("cart",orderItems);
+            }
+            else{
+                BigDecimal tempAmount = orderItem.getAmount().add(orderItems.get(index).getAmount());
+                int tempQuantity = orderItem.getQuantity()+orderItems.get(index).getQuantity();
+                orderItems.get(index).setAmount(tempAmount);
+                orderItems.get(index).setQuantity(tempQuantity);
+            }
+            session.setAttribute("cart", orderItems);
         };
 
        return "redirect:home";
@@ -62,13 +74,6 @@ public class PmController {
     @GetMapping("/ims")
     public String ims(){
         return "pmIMS";
-    }
-
-    @ModelAttribute("orders")
-    public List<Order> orders() {
-        System.out.println(orderService.findAll().toString());
-        return orderService.findAll();
-
     }
 
     @ModelAttribute("products")
