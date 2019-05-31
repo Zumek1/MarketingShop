@@ -15,6 +15,8 @@ import pl.coderslab.app.product.Product;
 import pl.coderslab.app.product.ProductService;
 
 import javax.servlet.http.HttpSession;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,7 +24,7 @@ import java.util.List;
 @Transactional
 @RequestMapping("/pm")
 @SessionAttributes("cart")
-@Scope(value = WebApplicationContext.SCOPE_SESSION)
+@Scope(value = WebApplicationContext.SCOPE_SESSION)//co z proxy mode?
 public class PmController {
     @Autowired
     OrderService orderService;
@@ -41,7 +43,7 @@ public class PmController {
     @PostMapping("/home")
     public String cartAdd(@ModelAttribute OrderItem orderItem, Model model, HttpSession session){
         orderItem.setProduct(productService.findById(orderItem.getProduct().getId()));
-        orderItem.setAmount(orderItem.getQuantity()*orderItem.getProduct().getPrice());
+        orderItem.setAmount(BigDecimal.valueOf(orderItem.getQuantity()*orderItem.getProduct().getPrice()).setScale(2, RoundingMode.FLOOR));
 
         if(session.getAttribute("cart")==null){
             List<OrderItem> orderItems = new ArrayList<>();
@@ -54,7 +56,12 @@ public class PmController {
             session.setAttribute("cart",orderItems);
         };
 
-       return "cartShoop";
+       return "redirect:home";
+    }
+
+    @GetMapping("/ims")
+    public String ims(){
+        return "pmIMS";
     }
 
     @ModelAttribute("orders")

@@ -3,7 +3,8 @@ package pl.coderslab.app.orders;
 import pl.coderslab.app.pm.PrzedstawicielMedyczny;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 //toDo zrobić status zamowienia zeby rkp zatwierdzal jeszcze zlozone zamowienie
@@ -18,14 +19,29 @@ public class Order {
     private List<OrderItem> items = new ArrayList<>();
     @ManyToOne
     private PrzedstawicielMedyczny przedstawicielMedyczny;
+    private LocalDateTime created;
+    @Column(scale=2, precision=6)
+    private BigDecimal totalAmount;
 
+    @PrePersist
+    public void prePersist() {
+        created = LocalDateTime.now();
+    }
 
-    public double getTotalAmount() {
-        double total = 0;
-        for (OrderItem item : items) {
-            total += item.getAmount();
-        }
-        return total;
+    public BigDecimal getTotalAmount() {
+        return totalAmount;
+    }
+
+    public void setTotalAmount(BigDecimal totalAmount) {
+        this.totalAmount = totalAmount;
+    }
+
+    public PrzedstawicielMedyczny getPrzedstawicielMedyczny() {
+        return przedstawicielMedyczny;
+    }
+
+    public void setPrzedstawicielMedyczny(PrzedstawicielMedyczny przedstawicielMedyczny) {
+        this.przedstawicielMedyczny = przedstawicielMedyczny;
     }
 
     public Long getId() {
@@ -42,5 +58,13 @@ public class Order {
 
     public void setItems(List<OrderItem> items) {
         this.items = items;
+    }
+
+    public LocalDateTime getCreated() {
+        return created;
+    }
+
+    public void setCreated(LocalDateTime created) {
+        this.created = created;
     }
 }

@@ -12,23 +12,42 @@
 <html>
 <head>
     <title>Title</title>
+    <script src="<c:url value="/webjars/jquery/3.0.0/jquery.min.js"/>"></script>
+    <script src="<c:url value="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"/>"></script>
+    <link href="<c:url value="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>" rel="stylesheet">
+    <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
+<%@include file="/WEB-INF/views/header.jspf"%>
+<div class="container">
 
+    <header>Cart Products</header>
 
-<p>TEST</p>
-<c:forEach items="${cart}" var="items">
+    <div class="card mt-4">
+        <div class="card-body">
 
-        <tr>
+            <table class="table table-hover">
+                <tr>
 
-            <td>${items.quantity} </td>
-            <td>${items.product.name} </td>
-            <td>${items.amount} PLN  </td>
+                    <th>Nazwa produktu</th>
+                    <th>Ilosc</th>
+                    <th>Wartosc</th>
+                    <th style="width: 5%">Actions</th>
+                </tr>
 
+                <c:forEach items="${cart}" var="items">
+                        <tr>
+                            <td>${items.product.name}</td>
+                            <td>${items.quantity}</td>
+                            <td>${items.amount}</td>
+                            <td>
+                                <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>
+                            </td>
+                        </tr>
+                </c:forEach>
 
-        </tr>
-
-</c:forEach>
-
-</body>
+            </table>
+        </div>
+    </div>
+</div>
 </html>

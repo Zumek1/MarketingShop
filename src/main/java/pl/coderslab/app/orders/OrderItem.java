@@ -4,6 +4,8 @@ import org.hibernate.validator.constraints.NotBlank;
 import pl.coderslab.app.product.Product;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "orderItem")
@@ -18,7 +20,9 @@ public class OrderItem {
     private Order order;
     @ManyToOne(cascade = CascadeType.ALL)
     private Product product;
-    private double amount;
+    @Column(scale=2, precision=6)
+    private BigDecimal amount;
+
 
     //todo zobaczyc czy nie dac to lacznej wartosci dla tego jednego produktu ilosc*cena
     //todo czy nie lepiej jak ta klasa nie bedzie encja?
@@ -55,11 +59,11 @@ public class OrderItem {
         this.product = product;
     }
 
-    public double getAmount() {
+    public BigDecimal getAmount() {
         return amount;
     }
 
-    public void setAmount(double amount) {
+    public void setAmount(BigDecimal amount) {
         this.amount = amount;
     }
 }

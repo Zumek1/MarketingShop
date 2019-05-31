@@ -41,7 +41,8 @@ public class PrzedstawicielMedyczny {
     private String region;
 
     @NotBlank
-    private double budzet;
+    @Column(scale=2, precision=6)
+    private BigDecimal budzet;
 
     @ManyToOne
     private Regionalny regionalny;
@@ -114,11 +115,11 @@ public class PrzedstawicielMedyczny {
         this.region = region;
     }
 
-    public double getBudzet() {
+    public BigDecimal getBudzet() {
         return budzet;
     }
 
-    public void setBudzet(double budzet) {
+    public void setBudzet(BigDecimal budzet) {
         this.budzet = budzet;
     }
 

@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: zumek1
-  Date: 26.05.19
-  Time: 10:22
+  Date: 30.05.19
+  Time: 12:59
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -21,33 +21,16 @@
 <%@include file="/WEB-INF/views/header.jspf"%>
 <div class="container">
 
-    <header>Cart Products</header>
+    <header>Products</header>
 
     <div class="card mt-4">
         <div class="card-body">
 
-            <table class="table table-hover">
-                <tr>
+            <iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=944e0741-d9f9-4dba-8d96-50df7a02fb16&autoAuth=true&ctid=99fa0d61-fca7-403f-944e-76f881608825" frameborder="0" allowFullScreen="true"></iframe>
 
-                    <th>Nazwa produktu</th>
-                    <th>Ilosc</th>
-                    <th>Wartosc</th>
-                    <th style="width: 5%">Actions</th>
-                </tr>
 
-                <c:forEach items="${cart}" var="items">
-                        <tr>
-                            <td>${items.product.name}</td>
-                            <td>${items.quantity}</td>
-                            <td>${items.amount}</td>
-                            <td>
-                                <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>
-                            </td>
-                        </tr>
-                </c:forEach>
-
-            </table>
         </div>
     </div>
 </div>
+</body>
 </html>
