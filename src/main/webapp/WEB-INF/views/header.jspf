@@ -16,7 +16,7 @@
                     <a class="nav-link" href="/cart">Moj koszyk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/files/list">Zamowienia</a>
+                    <a class="nav-link" href="/ordersHistory">Zamowienia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/pm/ims">Wyniki IMS</a>
