@@ -4,7 +4,6 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotBlank;
 import pl.coderslab.app.orders.Order;
 import pl.coderslab.app.rkp.Regionalny;
-import pl.coderslab.app.rkp.Regionalny;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -40,14 +39,13 @@ public class PrzedstawicielMedyczny {
     @NotBlank
     private String region;
 
-    @NotBlank
     @Column(scale=2, precision=6)
     private BigDecimal budzet;
 
     @ManyToOne
     private Regionalny regionalny;
 
-    @OneToMany(mappedBy = "przedstawicielMedyczny",cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany(mappedBy = "przedstawicielMedyczny",cascade = CascadeType.MERGE, orphanRemoval = true, fetch = FetchType.EAGER)
     private List<Order> orderList = new ArrayList<>();
 
 

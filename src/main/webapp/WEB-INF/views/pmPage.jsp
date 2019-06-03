@@ -54,7 +54,7 @@
                         <td>${product.name}</td>
                         <td>${product.medicalLine}</td>
                         <td>${product.price} PLN</td>
-                        <td ><form:input name="ilosc" style="width: 30%" path="quantity"/></td>
+                        <td ><form:input name="ilosc" typ="number" min="0" style="width: 30%" path="quantity"/></td>
                         <td>${product.magQuantity}</td>
                         <td>
                             <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>

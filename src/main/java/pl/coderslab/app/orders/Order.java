@@ -1,6 +1,7 @@
 package pl.coderslab.app.orders;
 
 import pl.coderslab.app.pm.PrzedstawicielMedyczny;
+import pl.coderslab.app.product.Product;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -15,17 +16,22 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<OrderItem> items = new ArrayList<>();
-    @ManyToOne
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "order_products",
+            joinColumns = @JoinColumn(name = "order_id"),
+            inverseJoinColumns = @JoinColumn(name = "product_id"))
+    private List<Product> products = new ArrayList<>();
+    @ManyToOne(cascade = CascadeType.MERGE)
     private PrzedstawicielMedyczny przedstawicielMedyczny;
     private LocalDateTime created;
     @Column(scale=2, precision=6)
     private BigDecimal totalAmount;
+    private String status;
 
     @PrePersist
     public void prePersist() {
         created = LocalDateTime.now();
+        setStatus("New order");
     }
 
     public BigDecimal getTotalAmount() {
@@ -44,6 +50,14 @@ public class Order {
         this.przedstawicielMedyczny = przedstawicielMedyczny;
     }
 
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public Long getId() {
         return id;
     }
@@ -52,12 +66,12 @@ public class Order {
         this.id = id;
     }
 
-    public List<OrderItem> getItems() {
-        return items;
+    public List<Product> getProducts() {
+        return products;
     }
 
-    public void setItems(List<OrderItem> items) {
-        this.items = items;
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 
     public LocalDateTime getCreated() {

@@ -4,10 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.annotation.*;
 import pl.coderslab.app.orders.Order;
 import pl.coderslab.app.orders.OrderItem;
 
@@ -31,6 +28,7 @@ public class CartController {
 
     @PostMapping("/cart")
     public String deleteItem(@ModelAttribute OrderItem orderItem, HttpSession session){
+
         List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("cart");
         Long id = orderItem.getProduct().getId();
         int index = cartItemService.isExisting(id,orderItems);

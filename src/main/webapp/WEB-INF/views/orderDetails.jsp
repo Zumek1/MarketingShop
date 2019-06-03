@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: zumek1
-  Date: 17.05.19
-  Time: 22:23
+  Date: 03.06.19
+  Time: 16:25
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -19,16 +19,18 @@
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jspf"%>
-<br>
+
+
 <div class="container">
 
-    <header>Products</header>
+    <header>Cart Products</header>
+
     <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
         <div class="card-header">
-            Budżet
+            Łączna wartość zamówienia
         </div>
         <div class="card-body text-black">
-            ${userSession.budzet} PLN
+            <tr>${order.totalAmount} PLN</tr>
         </div>
 
     </div>
@@ -39,33 +41,24 @@
             <table class="table table-hover">
                 <tr>
 
-                    <th>Nazwa produktu</th>
-                    <th>Linia lekowa</th>
-                    <th>Cena</th>
-                    <th style="width:15%">Ilosc </th>
-                    <th>Stan magazynowy</th>
+                    <th>Product</th>
                     <th style="width: 5%">Actions</th>
                 </tr>
 
-                <c:forEach items="${products}" var="product">
-                    <form:form method="post" modelAttribute="orderItem">
-                    <tr>
-                        <form:hidden path="product.id" value="${product.id}"/>
-                        <td>${product.name}</td>
-                        <td>${product.medicalLine}</td>
-                        <td>${product.price} PLN</td>
-                        <td ><form:input name="ilosc" typ="number" min="0" style="width: 30%" path="quantity"/></td>
-                        <td>${product.magQuantity}</td>
-                        <td>
-                            <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>
-                        </td>
-                    </tr>
-                    </form:form>
+
+                <c:forEach items="${order.products}" var="product">
+                        <tr>
+                            
+                            <td>${product.name}</td>
+
+                        </tr>
                 </c:forEach>
+
+
 
             </table>
         </div>
+
     </div>
 </div>
-</body>
 </html>

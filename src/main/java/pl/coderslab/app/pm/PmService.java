@@ -1,5 +1,6 @@
 package pl.coderslab.app.pm;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.SessionAttributes;
@@ -13,10 +14,16 @@ import javax.servlet.http.HttpSession;
 @Transactional
 @SessionAttributes
 public class PmService {
+    @Autowired
+    PmRepo pmRepo;
+
     public HttpSession session(){
         ServletRequestAttributes attributes = (ServletRequestAttributes)
                 RequestContextHolder.currentRequestAttributes();
         return attributes.getRequest().getSession();
+    }
+    public void updetePM(PrzedstawicielMedyczny przedstawicielMedyczny){
+        pmRepo.save(przedstawicielMedyczny);
     }
 
 }
