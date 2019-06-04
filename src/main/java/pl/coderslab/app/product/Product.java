@@ -2,6 +2,7 @@ package pl.coderslab.app.product;
 
 import org.hibernate.validator.constraints.NotBlank;
 import pl.coderslab.app.orders.Order;
+import pl.coderslab.app.orders.OrderItem;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -14,16 +15,17 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotBlank
+
     private String name;
-    @NotBlank
+
     private String medicalLine;
-    @NotBlank
+
     private int magQuantity;
-    @NotBlank
+
     private double price;
-    @ManyToMany(mappedBy = "products")
-    List<Order> orders = new ArrayList<>();
+    @OneToMany(mappedBy = "product", cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+    private List<OrderItem> orderItems = new ArrayList<>();
+
 
     public Long getId() {
         return id;
@@ -31,14 +33,6 @@ public class Product {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public List<Order> getOrders() {
-        return orders;
-    }
-
-    public void setOrders(List<Order> orders) {
-        this.orders = orders;
     }
 
     public String getName() {

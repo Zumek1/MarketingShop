@@ -42,14 +42,19 @@
                 <tr>
 
                     <th>Product</th>
-                    <th style="width: 5%">Actions</th>
+                    <th>Ilość</th>
+                    <th>Cena</th>
+                    <th>Wartość</th>
                 </tr>
 
 
-                <c:forEach items="${order.products}" var="product">
+                <c:forEach items="${order.orderItems}" var="items">
                         <tr>
-                            
-                            <td>${product.name}</td>
+
+                            <td>${items.product.name}</td>
+                            <td>${items.quantity}</td>
+                            <td>${items.product.price}</td>
+                            <td>${items.amount}</td>
 
                         </tr>
                 </c:forEach>

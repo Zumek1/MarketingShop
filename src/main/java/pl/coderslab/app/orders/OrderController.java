@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import pl.coderslab.app.pm.PmService;
 import pl.coderslab.app.pm.PrzedstawicielMedyczny;
 import pl.coderslab.app.product.Product;
+import pl.coderslab.app.product.ProductService;
 
 import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
@@ -22,6 +23,8 @@ public class OrderController {
     OrderService orderService;
     @Autowired
     PmService pmService;
+    @Autowired
+    ProductService productService;
 
     @GetMapping("/ordersHistory")
     public String orders(Model model, HttpSession session){
@@ -33,10 +36,10 @@ public class OrderController {
 
     public String addOrder(@ModelAttribute Order order, HttpSession session, Model model){
         List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("cart");
-        List<Product> products = orderService.getFromOrderItem(orderItems);
+        productService.updateProductMagQuantity(orderItems);
         PrzedstawicielMedyczny przedstawicielMedyczny = (PrzedstawicielMedyczny) session.getAttribute("userSession");
         BigDecimal tempBudzet = przedstawicielMedyczny.getBudzet().subtract(order.getTotalAmount());
-        order.setProducts(products);
+        order.setOrderItems(orderItems);
         przedstawicielMedyczny.setBudzet(tempBudzet);
         order.setPrzedstawicielMedyczny(przedstawicielMedyczny);
         orderService.saveOrder(order);

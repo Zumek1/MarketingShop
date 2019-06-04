@@ -16,17 +16,15 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "order_products",
-            joinColumns = @JoinColumn(name = "order_id"),
-            inverseJoinColumns = @JoinColumn(name = "product_id"))
-    private List<Product> products = new ArrayList<>();
+    @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    private List<OrderItem> orderItems = new ArrayList<>();
     @ManyToOne(cascade = CascadeType.MERGE)
     private PrzedstawicielMedyczny przedstawicielMedyczny;
     private LocalDateTime created;
     @Column(scale=2, precision=6)
     private BigDecimal totalAmount;
     private String status;
+
 
     @PrePersist
     public void prePersist() {
@@ -66,19 +64,23 @@ public class Order {
         this.id = id;
     }
 
-    public List<Product> getProducts() {
-        return products;
-    }
-
-    public void setProducts(List<Product> products) {
-        this.products = products;
-    }
-
     public LocalDateTime getCreated() {
         return created;
     }
 
     public void setCreated(LocalDateTime created) {
         this.created = created;
+    }
+
+    public List<OrderItem> getOrderItems() {
+        return orderItems;
+    }
+
+    public void setOrderItems(List<OrderItem> orderItems) {
+
+        this.orderItems = orderItems;
+        for(int i=0;i<orderItems.size();i++){
+            orderItems.get(i).setOrder(this);
+        }
     }
 }
