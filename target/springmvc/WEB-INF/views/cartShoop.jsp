@@ -25,7 +25,14 @@
 
     <header>Cart Products</header>
 
-    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
+    <div class="card inline text-black bg-succes mb-3" style="max-width: 18rem;">
+        <div class="card-header">
+            Budżet
+        </div>
+        <div class="card-body text-black">
+            ${userSession.budzet} PLN
+        </div>
+
         <div class="card-header">
             Łączna wartość zamówienia
         </div>
@@ -40,6 +47,10 @@
             <tr> <input type="submit" name="addOrder" value="Zamów" style="float:right" class="btn btn-primary btn-small"></input></tr>
             </form:form>
         </div>
+
+    </div>
+
+
 
     </div>
 

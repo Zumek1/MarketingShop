@@ -36,7 +36,12 @@ public class OrderController {
 
     public String addOrder(@ModelAttribute Order order, HttpSession session, Model model){
         List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("cart");
-        productService.updateProductMagQuantity(orderItems);
+        for(int i=0;i<orderItems.size();i++){
+            Product product = productService.findById(orderItems.get(i).getProduct().getId());
+            product.setMagQuantity(product.getMagQuantity()-orderItems.get(i).getQuantity());
+            orderItems.get(i).setProduct(product);
+            productService.update(product);
+        }
         PrzedstawicielMedyczny przedstawicielMedyczny = (PrzedstawicielMedyczny) session.getAttribute("userSession");
         BigDecimal tempBudzet = przedstawicielMedyczny.getBudzet().subtract(order.getTotalAmount());
         order.setOrderItems(orderItems);

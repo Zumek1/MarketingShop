@@ -18,12 +18,7 @@ public class ProductService {
     }
     public Product findById(Long id){return productRepo.findOne(id);}
 
-    public void updateProductMagQuantity(List<OrderItem> orderItems){
-        for(int i=0;i<orderItems.size();i++){
-            Product product = findById(orderItems.get(i).getProduct().getId());
-            int tempMagQuantity = product.getMagQuantity()-orderItems.get(i).getQuantity();
-            product.setMagQuantity(tempMagQuantity);
-            productRepo.save(product);
-        }
+    public void update (Product product){
+        productRepo.save(product);
     }
 }

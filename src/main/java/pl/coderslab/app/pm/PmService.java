@@ -26,4 +26,11 @@ public class PmService {
         pmRepo.save(przedstawicielMedyczny);
     }
 
+    public int budzetVScartItem(HttpSession session, OrderItem orderItem){
+        PrzedstawicielMedyczny przedstawicielMedyczny = (PrzedstawicielMedyczny) session.getAttribute("userSession");
+        int result = przedstawicielMedyczny.getBudzet().compareTo(orderItem.getAmount());
+        return result;
+    }
+
+
 }

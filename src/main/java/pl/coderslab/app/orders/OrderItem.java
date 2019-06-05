@@ -13,7 +13,7 @@ public class OrderItem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private int quantity;
-    @ManyToOne(cascade = CascadeType.MERGE)
+    @ManyToOne(cascade = CascadeType.PERSIST)
     private Product product;
     @ManyToOne(cascade = CascadeType.ALL)
     private Order order;
@@ -48,6 +48,7 @@ public class OrderItem {
     }
 
     public void setProduct(Product product) {
+
         this.product = product;
     }
 

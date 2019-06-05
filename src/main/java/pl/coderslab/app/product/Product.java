@@ -23,7 +23,7 @@ public class Product {
     private int magQuantity;
 
     private double price;
-    @OneToMany(mappedBy = "product", cascade = CascadeType.MERGE, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "product", cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
     private List<OrderItem> orderItems = new ArrayList<>();
 
 
@@ -33,6 +33,14 @@ public class Product {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public List<OrderItem> getOrderItems() {
+        return orderItems;
+    }
+
+    public void setOrderItems(List<OrderItem> orderItems) {
+        this.orderItems = orderItems;
     }
 
     public String getName() {
