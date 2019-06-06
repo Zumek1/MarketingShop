@@ -24,15 +24,17 @@
 <div class="container">
 
     <header>Cart Products</header>
-
-    <div class="card inline text-black bg-succes mb-3" style="max-width: 18rem;">
+<div class="card-deck">
+    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
         <div class="card-header">
             Budżet
         </div>
         <div class="card-body text-black">
             ${userSession.budzet} PLN
         </div>
+    </div>
 
+    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
         <div class="card-header">
             Łączna wartość zamówienia
         </div>
@@ -49,7 +51,7 @@
         </div>
 
     </div>
-
+</div>
 
 
     </div>

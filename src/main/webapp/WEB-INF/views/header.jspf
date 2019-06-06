@@ -22,7 +22,7 @@
                     <a class="nav-link" href="/pm/ims">Wyniki IMS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/files/list">Files</a>
+                    <a class="nav-link" href="/pm/akademia">Akademia</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

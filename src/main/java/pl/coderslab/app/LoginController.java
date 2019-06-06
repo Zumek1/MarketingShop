@@ -57,7 +57,7 @@ public class LoginController {
             if(regionalny.getPassword().equals(password)){
                 model.addAttribute("userSession", regionalny);
                 model.addAttribute("isLogged", true);
-                return "rkpPage";
+                return "redirect:/rkp/home";
             }
         }
         else if(typ.equals("mag")){

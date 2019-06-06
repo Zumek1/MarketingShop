@@ -93,6 +93,13 @@
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/formFullPerson.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/person.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/personSucces.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpIMS.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/vcs.xml" afterDir="false" />
@@ -105,19 +112,26 @@
       <change beforePath="$PROJECT_DIR$/../../Modul5/Warszaty 5 REST/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Modul5/Warszaty 5 REST/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/orders/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/orders/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/orders/OrderItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/orders/OrderItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/ProductService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/cartShoop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/cartShoop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/rkpPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/rkpPage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -145,52 +159,53 @@
     <session id="-1503944821">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="7" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.2" value="8" />
           <entry key="project.open.time.3" value="11" />
-          <entry key="project.open.time.4" value="7" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="java" value="8516" />
-          <entry key="jsp" value="2852" />
-          <entry key="jspf" value="305" />
-          <entry key="txt" value="1407" />
+          <entry key="java" value="9919" />
+          <entry key="jsp" value="4297" />
+          <entry key="jspf" value="350" />
+          <entry key="txt" value="1509" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="97" />
-          <entry key="JAVA" value="8516" />
-          <entry key="JSP" value="3060" />
-          <entry key="PLAIN_TEXT" value="1417" />
+          <entry key="CSS" value="161" />
+          <entry key="JAVA" value="9919" />
+          <entry key="JSP" value="4486" />
+          <entry key="PLAIN_TEXT" value="1519" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="15" />
+          <entry key="class" value="21" />
           <entry key="css" value="1" />
-          <entry key="java" value="190" />
-          <entry key="jsp" value="58" />
-          <entry key="jspf" value="10" />
+          <entry key="java" value="227" />
+          <entry key="jsp" value="87" />
+          <entry key="jspf" value="15" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="15" />
+          <entry key="CLASS" value="21" />
           <entry key="CSS" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="190" />
-          <entry key="JSP" value="68" />
+          <entry key="JAVA" value="227" />
+          <entry key="JSP" value="102" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -204,10 +219,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="-136">
               <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -217,47 +232,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="174">
+              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+            <state relative-caret-position="374">
+              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding>
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="16">
+              <caret line="11" selection-start-line="11" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -292,7 +321,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/Regionalny.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/PM.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RegionalnyRepo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/image/rkpPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/storehouse/Storekeeper.java" />
@@ -300,12 +328,7 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/storehouse/StorekeeperRepo.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/pmController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/cart/CartItemService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/cart/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItemRepo.java" />
@@ -314,17 +337,30 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PrzedstawicielMedyczny.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/image/orderDetails.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orders.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/Order.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpIMS.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" />
       </list>
     </option>
   </component>
@@ -370,6 +406,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,17 +469,6 @@
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="coderslab" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="orders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,6 +492,17 @@
               <item name="coderslab" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rkp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
@@ -504,14 +542,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559574873092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559811083253" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -654,7 +690,11 @@
       <workItem from="1559626113329" duration="8978000" />
       <workItem from="1559644308389" duration="3834000" />
       <workItem from="1559656883725" duration="1489000" />
-      <workItem from="1559713349505" duration="3802000" />
+      <workItem from="1559713349505" duration="3941000" />
+      <workItem from="1559726044800" duration="15901000" />
+      <workItem from="1559749516380" duration="356000" />
+      <workItem from="1559764766924" duration="4043000" />
+      <workItem from="1559800398421" duration="9148000" />
     </task>
     <task id="LOCAL-00001" summary="zapis do bazy dziala - bez wszystkich encji">
       <created>1558033486280</created>
@@ -754,17 +794,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559644836059</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="poprawiono order controller - stan magazynu pomniejsza sie. Dodac kontrole budzetu i stanu maqgazynu">
+      <created>1559717287314</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559717287314</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152159000" />
+    <option name="totallyTimeSpent" value="181746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17398244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30407023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -774,7 +821,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2512235" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2512235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46655792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,7 +846,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32960895" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27214685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30407023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -809,8 +856,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.07177814" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2512235" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46655792" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -818,17 +865,17 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32952693" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32960895" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.24980047" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32960895" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32960895" />
@@ -865,95 +912,18 @@
     <MESSAGE value="dziala dodawanie kolejnego produktu, bez dodawania kolejnego wierdza, dodano usuwanie produktu." />
     <MESSAGE value="Obsluga budzetu dziala, edycja historycznego zamowienia dziala. Trzeba zmienic encje order i dodac ilość produktu w jakis sposob" />
     <MESSAGE value="zmiana ilosci produktu w magazynie dziala. dorobic zdjecia produktu do bazy danych" />
-    <option name="LAST_COMMIT_MESSAGE" value="zmiana ilosci produktu w magazynie dziala. dorobic zdjecia produktu do bazy danych" />
+    <MESSAGE value="poprawiono order controller - stan magazynu pomniejsza sie. Dodac kontrole budzetu i stanu maqgazynu" />
+    <option name="LAST_COMMIT_MESSAGE" value="poprawiono order controller - stan magazynu pomniejsza sie. Dodac kontrole budzetu i stanu maqgazynu" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/images/avatar.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/user/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RegionalnyRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/storehouse/Storekeeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/storehouse/StorekeeperRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header2.jspf" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/HomePageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/magPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -965,101 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PrzedstawicielMedyczny.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orders.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="46" column="65" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/cart/CartItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.1.RELEASE/spring-tx-5.0.1.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.1.RELEASE/spring-tx-5.0.1.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="505" selection-start-line="505" selection-end-line="505" />
         </state>
       </provider>
     </entry>
@@ -1119,47 +998,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        <state relative-caret-position="195">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="10" selection-start-line="25" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+        <state relative-caret-position="122">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/cart/CartItemService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.1.RELEASE/spring-core-5.0.1.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="99">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.1.RELEASE/spring-tx-5.0.1.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.0.1.RELEASE/spring-tx-5.0.1.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.1.RELEASE/spring-aop-5.0.1.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="505" selection-start-line="505" selection-end-line="505" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1173,55 +1085,215 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RegionalnyRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="71" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="15">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="299">
+          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="990">
+          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           <folding>
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/magPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="-136">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="11" selection-start-line="11" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpIMS.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="84" selection-start-line="84" selection-end-line="87" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

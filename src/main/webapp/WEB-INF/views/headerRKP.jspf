@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-lg navbar-blue navbar-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-blue navbar-dark fixed-top">
     <div class="container">
         <a class="navbar-brand js-scroll-trigger nav-link disabled" herf="#">${userSession.firstName} ${userSession.lastName}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/pm/home">Lista Produktow</a>
+                    <a class="nav-link" href="/rkp/home">Lista Przedstawicieli</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/cart">Moj koszyk</a>
@@ -19,10 +19,10 @@
                     <a class="nav-link" href="/ordersHistory">Zamowienia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pm/ims">Wyniki IMS</a>
+                    <a class="nav-link" href="/rkp/ims">Wyniki IMS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pm/akademia">Akademia</a>
+                    <a class="nav-link" href="/files/list">Files</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">

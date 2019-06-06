@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: zumek1
-  Date: 30.05.19
-  Time: 12:59
+  Date: 05.06.19
+  Time: 11:32
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -21,15 +21,10 @@
 <%@include file="/WEB-INF/views/header.jspf"%>
 <div class="container">
 
-    <header>Wyniki sprzedaży: IMS</header>
+    <header>ALERT</header>
 
-    <div class="card mt-4">
-        <div class="card-body">
-
-            <iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=1f5a8f22-0fb8-4364-86d2-320de05b5d94&autoAuth=true&ctid=99fa0d61-fca7-403f-944e-76f881608825" frameborder="0" allowFullScreen="true"></iframe>
-
-        </div>
-    </div>
+    <h1 style="font-weight:bold">UWAGA. Przekroczyłeś budżedt lub stan magazynu.</h1>
+    <h3> Produkt nie został dodany do koszyka</h3>
 </div>
 </body>
 </html>

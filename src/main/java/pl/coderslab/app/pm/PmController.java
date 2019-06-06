@@ -44,28 +44,39 @@ public class PmController {
 
     @PostMapping("/home")
     public String cartAdd(@ModelAttribute OrderItem orderItem, Model model, HttpSession session){
+
         orderItem.setProduct(productService.findById(orderItem.getProduct().getId()));
         orderItem.setAmount(BigDecimal.valueOf(orderItem.getQuantity()*orderItem.getProduct().getPrice()).setScale(2, RoundingMode.FLOOR));
 
         if(session.getAttribute("cart")==null){
-            List<OrderItem> orderItems = new ArrayList<>();
-            orderItems.add(orderItem);
-            session.setAttribute("cart", orderItems);
+            if(orderItem.getQuantity()>orderItem.getProduct().getMagQuantity()||pmService.budzetVScartItem(session,orderItem)==-1){
+                return "error";
+            }
+            else {
+                List<OrderItem> orderItems = new ArrayList<>();
+                orderItems.add(orderItem);
+                session.setAttribute("cart", orderItems);
+            }
         }
         else {
             List<OrderItem> orderItems = (List<OrderItem>) session.getAttribute("cart");
-            int index = cartItemService.isExisting(orderItem.getProduct().getId(),orderItems);
-            if(index==-1){
-                orderItems.add(orderItem);
-                session.setAttribute("cart",orderItems);
+
+            if(pmService.veryfiCartQuantity(orderItems,orderItem)==false||pmService.veryfiAmount(orderItems,orderItem,session)==false){
+                return "error";
             }
-            else{
-                BigDecimal tempAmount = orderItem.getAmount().add(orderItems.get(index).getAmount());
-                int tempQuantity = orderItem.getQuantity()+orderItems.get(index).getQuantity();
-                orderItems.get(index).setAmount(tempAmount);
-                orderItems.get(index).setQuantity(tempQuantity);
+            else {
+                int index = cartItemService.isExisting(orderItem.getProduct().getId(), orderItems);
+                if (index == -1) {
+                    orderItems.add(orderItem);
+                    session.setAttribute("cart", orderItems);
+                } else {
+                    BigDecimal tempAmount = orderItem.getAmount().add(orderItems.get(index).getAmount());
+                    int tempQuantity = orderItem.getQuantity() + orderItems.get(index).getQuantity();
+                    orderItems.get(index).setAmount(tempAmount);
+                    orderItems.get(index).setQuantity(tempQuantity);
+                }
+                session.setAttribute("cart", orderItems);
             }
-            session.setAttribute("cart", orderItems);
         };
 
        return "redirect:home";
