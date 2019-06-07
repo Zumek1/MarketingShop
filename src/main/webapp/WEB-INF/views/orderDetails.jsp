@@ -42,6 +42,7 @@
                 <tr>
 
                     <th>Product</th>
+                    <th>Zdjęcie</th>
                     <th>Ilość</th>
                     <th>Cena</th>
                     <th>Wartość</th>
@@ -52,6 +53,7 @@
                         <tr>
 
                             <td>${items.product.name}</td>
+                            <td><img style="height: 20%" src="${items.product.image}"></td>
                             <td>${items.quantity}</td>
                             <td>${items.product.price}</td>
                             <td>${items.amount}</td>

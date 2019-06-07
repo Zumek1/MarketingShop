@@ -93,13 +93,9 @@
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/formFullPerson.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/person.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Modul6/New/src/main/webapp/WEB-INF/personSucces.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpIMS.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akademia.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/ulotka.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/popap.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Tweeter/tweet/.idea/vcs.xml" afterDir="false" />
@@ -112,26 +108,27 @@
       <change beforePath="$PROJECT_DIR$/../../Modul5/Warszaty 5 REST/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Modul5/Warszaty 5 REST/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/pm/PmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/coderslab/app/product/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmRepo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/pm/PmService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/classes/pl/coderslab/app/product/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/cartShoop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/cartShoop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/rkpPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/rkpPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/pmPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/springmvc/WEB-INF/views/pmPage.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -159,42 +156,46 @@
     <session id="-1503944821">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.2" value="8" />
+          <entry key="project.open.time.2" value="10" />
           <entry key="project.open.time.3" value="11" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="58" />
           <entry key="dummy" value="10" />
-          <entry key="java" value="9919" />
-          <entry key="jsp" value="4297" />
+          <entry key="java" value="10725" />
+          <entry key="js" value="55" />
+          <entry key="jsp" value="5115" />
           <entry key="jspf" value="350" />
-          <entry key="txt" value="1509" />
+          <entry key="txt" value="1583" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="161" />
-          <entry key="JAVA" value="9919" />
-          <entry key="JSP" value="4486" />
-          <entry key="PLAIN_TEXT" value="1519" />
+          <entry key="CSS" value="238" />
+          <entry key="JAVA" value="10725" />
+          <entry key="JSP" value="5285" />
+          <entry key="JavaScript" value="55" />
+          <entry key="PLAIN_TEXT" value="1593" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="21" />
-          <entry key="css" value="1" />
-          <entry key="java" value="227" />
-          <entry key="jsp" value="87" />
-          <entry key="jspf" value="15" />
+          <entry key="css" value="3" />
+          <entry key="java" value="236" />
+          <entry key="js" value="2" />
+          <entry key="jsp" value="98" />
+          <entry key="jspf" value="16" />
           <entry key="png" value="1" />
           <entry key="xml" value="5" />
         </counts>
@@ -202,10 +203,11 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="21" />
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="3" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="227" />
-          <entry key="JSP" value="102" />
+          <entry key="JAVA" value="236" />
+          <entry key="JSP" value="114" />
+          <entry key="JavaScript" value="2" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -220,73 +222,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1648#1649#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="49" />
+            <state relative-caret-position="128">
+              <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akademia.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="11" selection-start-line="11" selection-end-line="34" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="222">
+              <caret line="29" column="67" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -298,6 +263,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -333,34 +299,37 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/cart/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItemRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PrzedstawicielMedyczny.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/image/orderDetails.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orders.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homepage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpPage.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmIMS.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerRKP.jspf" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/rkpIMS.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/ulotka.css" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akademia.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/popap.js" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp" />
       </list>
     </option>
   </component>
@@ -406,7 +375,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -465,44 +433,7 @@
               <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="pm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rkp" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
@@ -510,6 +441,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
@@ -527,27 +459,18 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="marketingShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="marketingShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559811083253" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559906693392" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -694,7 +617,9 @@
       <workItem from="1559726044800" duration="15901000" />
       <workItem from="1559749516380" duration="356000" />
       <workItem from="1559764766924" duration="4043000" />
-      <workItem from="1559800398421" duration="9148000" />
+      <workItem from="1559800398421" duration="21088000" />
+      <workItem from="1559888136996" duration="752000" />
+      <workItem from="1559896814710" duration="6604000" />
     </task>
     <task id="LOCAL-00001" summary="zapis do bazy dziala - bez wszystkich encji">
       <created>1558033486280</created>
@@ -801,17 +726,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559717287314</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="rkp zmieniono trochę widoki. widać ile jest zamówień niezaakceptowanych">
+      <created>1559811240959</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559811240959</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181746000" />
+    <option name="totallyTimeSpent" value="201042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30407023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31364724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -846,7 +778,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32960895" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30407023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31444532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -913,35 +845,14 @@
     <MESSAGE value="Obsluga budzetu dziala, edycja historycznego zamowienia dziala. Trzeba zmienic encje order i dodac ilość produktu w jakis sposob" />
     <MESSAGE value="zmiana ilosci produktu w magazynie dziala. dorobic zdjecia produktu do bazy danych" />
     <MESSAGE value="poprawiono order controller - stan magazynu pomniejsza sie. Dodac kontrole budzetu i stanu maqgazynu" />
-    <option name="LAST_COMMIT_MESSAGE" value="poprawiono order controller - stan magazynu pomniejsza sie. Dodac kontrole budzetu i stanu maqgazynu" />
+    <MESSAGE value="rkp zmieniono trochę widoki. widać ile jest zamówień niezaakceptowanych" />
+    <option name="LAST_COMMIT_MESSAGE" value="rkp zmieniono trochę widoki. widać ile jest zamówień niezaakceptowanych" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderItemRepo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/Regionalny.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PrzedstawicielMedyczny.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.1.RELEASE/spring-web-5.0.1.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -995,20 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1085,16 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RegionalnyRepo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1147,27 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -1192,53 +1058,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orders.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="48" column="84" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#3;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1273,30 +1096,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="84" selection-start-line="84" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="16">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/ulotka.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/rkp/RkpController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/pm/PmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/popap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/orders/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding>
+            <element signature="e#1648#1649#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/cartShoop.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="76" column="70" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetails.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/orderDetailsRKP.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersRKP.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pmPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="55" column="81" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/akademia.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="67" />
         </state>
       </provider>
     </entry>

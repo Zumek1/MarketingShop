@@ -87,6 +87,9 @@ public class PmController {
         return "pmIMS";
     }
 
+    @GetMapping("/akademia")
+    public String akademia(){return "akademia";}
+
     @ModelAttribute("products")
     public List<Product> products(){
         return productService.findAll();

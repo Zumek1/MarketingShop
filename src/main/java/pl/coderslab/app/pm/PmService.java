@@ -6,7 +6,9 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
+import pl.coderslab.app.orders.Order;
 import pl.coderslab.app.orders.OrderItem;
+import pl.coderslab.app.product.Product;
 import pl.coderslab.app.rkp.Regionalny;
 
 import javax.servlet.http.HttpSession;
@@ -69,6 +71,14 @@ public class PmService {
         List<PrzedstawicielMedyczny> przedstawicielMedycznyList =
                 pmRepo.findByRegionalny((Regionalny)session.getAttribute("userSession"));
         return przedstawicielMedycznyList;
+    }
+
+    public void setBudzetCancelOrder (Order order){
+
+            PrzedstawicielMedyczny przedstawicielMedyczny = pmRepo.findOne(order.getPrzedstawicielMedyczny().getId());
+            przedstawicielMedyczny.setBudzet(przedstawicielMedyczny.getBudzet().add(order.getTotalAmount()));
+            pmRepo.save(przedstawicielMedyczny);
+
     }
 
 }

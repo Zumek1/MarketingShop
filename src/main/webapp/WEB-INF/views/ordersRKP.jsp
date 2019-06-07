@@ -43,11 +43,14 @@
                         <td>${order.created}</td>
                         <td>${order.totalAmount} PLN</td>
                         <td >${order.status}</td>
+                        <form:form method="post" modelAttribute="order">
                         <td>
+                            <form:hidden path="id" value="${order.id}"/>
                             <a href="${order.id}/orderDetails" class="btn btn-success">Szczegóły</a>
-                            <a href="${order.id}/orderDetails" class="btn btn-primary">Zaakceptuj</a>
-                            <a href="${order.id}/orderDetails" class="btn btn-danger">Odrzuć</a>
+                            <input type="submit" class="btn btn-primary" name="action" value="Akcept"/>
+                            <input type="submit" class="btn btn-danger" name="action" value="Odrzuć"/>
                         </td>
+                        </form:form>
                     </tr>
                 </c:forEach>
 

@@ -19,6 +19,7 @@
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jspf"%>
+
 <br>
 <div class="container">
 
@@ -40,7 +41,7 @@
                 <tr>
 
                     <th>Nazwa produktu</th>
-                    <th>Linia lekowa</th>
+                    <th>Zdjęcie</th>
                     <th>Cena</th>
                     <th style="width:15%">Ilosc </th>
                     <th>Stan magazynowy</th>
@@ -52,12 +53,12 @@
                     <tr>
                         <form:hidden path="product.id" value="${product.id}"/>
                         <td>${product.name}</td>
-                        <td>${product.medicalLine}</td>
+                        <td><img style="height: 20%" src="${product.image}"></td>
                         <td>${product.price} PLN</td>
                         <td ><form:input name="ilosc" typ="number" min="0" style="width: 30%" path="quantity"/></td>
                         <td>${product.magQuantity}</td>
                         <td>
-                            <input type="submit" class="btn btn-success" value="Dodaj do koszyka"/>
+                            <input type="submit" class="btn btn-success"  data-toggle="modal" data-target="#exampleModal" value="Dodaj do koszyka"/>
                         </td>
                     </tr>
                     </form:form>

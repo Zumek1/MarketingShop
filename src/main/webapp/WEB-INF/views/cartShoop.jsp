@@ -63,6 +63,7 @@
                 <tr>
 
                     <th>Nazwa produktu</th>
+                    <th>Zdjęcie</th>
                     <th>Ilosc</th>
                     <th>Wartosc</th>
                     <th style="width: 5%">Actions</th>
@@ -73,6 +74,7 @@
                         <tr>
                             <form:hidden path="product.id" value="${items.product.id}"/>
                             <td>${items.product.name}</td>
+                            <td><img style="height: 20%" src="${items.product.image}"></td>
                             <td>${items.quantity}</td>
                             <td>${items.amount} PLN</td>
                             <td>

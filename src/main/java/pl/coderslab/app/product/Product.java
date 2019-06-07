@@ -25,6 +25,7 @@ public class Product {
     private double price;
     @OneToMany(mappedBy = "product", cascade = CascadeType.PERSIST, fetch = FetchType.EAGER)
     private List<OrderItem> orderItems = new ArrayList<>();
+    private String image;
 
 
     public Long getId() {
@@ -73,5 +74,13 @@ public class Product {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
