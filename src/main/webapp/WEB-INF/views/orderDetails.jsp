@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/header.jspf"%>
+<%@include file="/WEB-INF/views/header.jspf" %>
 
 
 <div class="container">
@@ -50,17 +50,16 @@
 
 
                 <c:forEach items="${order.orderItems}" var="items">
-                        <tr>
+                    <tr>
 
-                            <td>${items.product.name}</td>
-                            <td><img style="height: 20%" src="${items.product.image}"></td>
-                            <td>${items.quantity}</td>
-                            <td>${items.product.price}</td>
-                            <td>${items.amount}</td>
+                        <td>${items.product.name}</td>
+                        <td><img style="height: 20%" src="${items.product.image}"></td>
+                        <td>${items.quantity}</td>
+                        <td>${items.product.price}</td>
+                        <td>${items.amount}</td>
 
-                        </tr>
+                    </tr>
                 </c:forEach>
-
 
 
             </table>

@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/header.jspf"%>
+<%@include file="/WEB-INF/views/header.jspf" %>
 <div class="container">
 
     <header>ALERT</header>

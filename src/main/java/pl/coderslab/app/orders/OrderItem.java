@@ -3,6 +3,7 @@ package pl.coderslab.app.orders;
 import pl.coderslab.app.product.Product;
 
 import javax.persistence.*;
+import javax.validation.constraints.Min;
 import java.math.BigDecimal;
 
 @Entity
@@ -12,6 +13,7 @@ public class OrderItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Min(value = 1, message = "wartość musi być większa niż 0!")
     private int quantity;
     @ManyToOne(cascade = CascadeType.PERSIST)
     private Product product;

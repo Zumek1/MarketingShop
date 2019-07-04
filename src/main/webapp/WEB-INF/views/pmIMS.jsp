@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/header.jspf"%>
+<%@include file="/WEB-INF/views/header.jspf" %>
 <div class="container">
 
     <header>Wyniki sprzedaży: IMS</header>
@@ -26,7 +26,9 @@
     <div class="card mt-4">
         <div class="card-body">
 
-            <iframe width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=1f5a8f22-0fb8-4364-86d2-320de05b5d94&autoAuth=true&ctid=99fa0d61-fca7-403f-944e-76f881608825" frameborder="0" allowFullScreen="true"></iframe>
+            <iframe width="1140" height="541.25"
+                    src="https://app.powerbi.com/reportEmbed?reportId=1f5a8f22-0fb8-4364-86d2-320de05b5d94&autoAuth=true&ctid=99fa0d61-fca7-403f-944e-76f881608825"
+                    frameborder="0" allowFullScreen="true"></iframe>
 
         </div>
     </div>

@@ -6,6 +6,7 @@ import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.context.WebApplicationContext;
 import pl.coderslab.app.cart.CartItemService;
@@ -15,6 +16,7 @@ import pl.coderslab.app.product.Product;
 import pl.coderslab.app.product.ProductService;
 
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -43,8 +45,11 @@ public class PmController {
     }
 
     @PostMapping("/home")
-    public String cartAdd(@ModelAttribute OrderItem orderItem, Model model, HttpSession session){
-
+    public String cartAdd(@ModelAttribute @Valid OrderItem orderItem, BindingResult result, Model model, HttpSession session){
+        if(result.hasErrors()){
+            model.addAttribute("orderItem", new OrderItem());
+            return "pmPage";
+        }
         orderItem.setProduct(productService.findById(orderItem.getProduct().getId()));
         orderItem.setAmount(BigDecimal.valueOf(orderItem.getQuantity()*orderItem.getProduct().getPrice()).setScale(2, RoundingMode.FLOOR));
 
@@ -78,8 +83,8 @@ public class PmController {
                 session.setAttribute("cart", orderItems);
             }
         };
-
-       return "redirect:home";
+        model.addAttribute("orderItem", new OrderItem());
+        return "pmPage";
     }
 
     @GetMapping("/ims")

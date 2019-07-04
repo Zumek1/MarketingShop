@@ -4,11 +4,13 @@ import pl.coderslab.app.pm.PrzedstawicielMedyczny;
 import pl.coderslab.app.product.Product;
 
 import javax.persistence.*;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-//toDo zrobić status zamowienia zeby rkp zatwierdzal jeszcze zlozone zamowienie
+
 @Entity
 @Table(name = "orders")
 public class Order {
@@ -19,9 +21,11 @@ public class Order {
     @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     private List<OrderItem> orderItems = new ArrayList<>();
     @ManyToOne(cascade = CascadeType.MERGE)
+    @NotNull
     private PrzedstawicielMedyczny przedstawicielMedyczny;
     private LocalDateTime created;
     @Column(scale=2, precision=6)
+    @DecimalMin(value = "0", message = "Wartość poniżej 0")
     private BigDecimal totalAmount;
     private String status;
 

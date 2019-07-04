@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/headerRKP.jspf"%>
+<%@include file="/WEB-INF/views/headerRKP.jspf" %>
 
 <div class="container">
 
@@ -59,8 +59,6 @@
 
                     </tr>
                 </c:forEach>
-
-
 
             </table>
         </div>

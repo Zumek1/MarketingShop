@@ -18,73 +18,76 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/header.jspf"%>
+<%@include file="/WEB-INF/views/header.jspf" %>
 
 
 <div class="container">
 
     <header>Cart Products</header>
-<div class="card-deck">
-    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
-        <div class="card-header">
-            Budżet
+    <div class="card-deck">
+        <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                Budżet
+            </div>
+            <div class="card-body text-black">
+                ${userSession.budzet} PLN
+            </div>
         </div>
-        <div class="card-body text-black">
-            ${userSession.budzet} PLN
+
+        <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                Łączna wartość zamówienia
+            </div>
+            <div class="card-body text-black">
+                <c:set var="total" value="0"></c:set>
+                <c:forEach items="${cart}" var="items">
+                    <c:set var="total" value="${total+items.amount}"></c:set>
+                </c:forEach>
+                <tr>${total} PLN</tr>
+                <form:form method="post" modelAttribute="order" action="/ordersHistory">
+                    <form:hidden path="totalAmount" value="${total}"></form:hidden>
+                    <tr><input type="submit" name="addOrder" value="Zamów" style="float:right"
+                               class="btn btn-primary btn-small"></input></tr>
+                </form:form>
+            </div>
+
         </div>
     </div>
 
-    <div class="card text-black bg-succes mb-3" style="max-width: 18rem;">
-        <div class="card-header">
-            Łączna wartość zamówienia
-        </div>
-        <div class="card-body text-black">
-            <c:set var="total" value="0"></c:set>
-        <c:forEach items="${cart}" var="items">
-            <c:set var="total" value="${total+items.amount}"></c:set>
-        </c:forEach>
-            <tr>${total} PLN</tr>
-            <form:form method="post" modelAttribute="order" action="/ordersHistory">
-                <form:hidden path="totalAmount" value="${total}"></form:hidden>
-            <tr> <input type="submit" name="addOrder" value="Zamów" style="float:right" class="btn btn-primary btn-small"></input></tr>
-            </form:form>
-        </div>
 
-    </div>
 </div>
 
+<div class="card mt-4">
+    <div class="card-body">
 
+        <table class="table table-hover">
+            <tr>
+
+                <th>Nazwa produktu</th>
+                <th>Zdjęcie</th>
+                <th>Ilosc</th>
+                <th>Wartosc</th>
+                <th style="width: 5%">Actions</th>
+            </tr>
+
+            <c:forEach items="${cart}" var="items">
+                <form:form method="post" modelAttribute="orderItem" action="/cart">
+                    <tr>
+                        <form:hidden path="product.id" value="${items.product.id}"/>
+                        <td>${items.product.name}</td>
+                        <td><img style="height: 20%" src="${items.product.image}"></td>
+                        <td>${items.quantity}</td>
+                        <td>${items.amount} PLN</td>
+                        <td>
+                            <input type="submit" class="btn btn-danger" value="Usuń"/>
+                        </td>
+                    </tr>
+                </form:form>
+            </c:forEach>
+
+        </table>
     </div>
 
-    <div class="card mt-4">
-        <div class="card-body">
-
-            <table class="table table-hover">
-                <tr>
-
-                    <th>Nazwa produktu</th>
-                    <th>Ilosc</th>
-                    <th>Wartosc</th>
-                    <th style="width: 5%">Actions</th>
-                </tr>
-
-                <c:forEach items="${cart}" var="items">
-                    <form:form method="post" modelAttribute="orderItem" action="/cart">
-                        <tr>
-                            <form:hidden path="product.id" value="${items.product.id}"/>
-                            <td>${items.product.name}</td>
-                            <td>${items.quantity}</td>
-                            <td>${items.amount} PLN</td>
-                            <td>
-                                <input type="submit" class="btn btn-danger" value="Usuń"/>
-                            </td>
-                        </tr>
-                    </form:form>
-                </c:forEach>
-
-            </table>
-        </div>
-
-    </div>
+</div>
 </div>
 </html>

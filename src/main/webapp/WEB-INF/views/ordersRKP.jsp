@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/headerRKP.jspf"%>
+<%@include file="/WEB-INF/views/headerRKP.jspf" %>
 <br>
 <br>
 <div class="container">
@@ -32,7 +32,7 @@
                     <th style="width:10%">Id zamówienia</th>
                     <th>Data</th>
                     <th>Wartość</th>
-                    <th style="width:15%">Status </th>
+                    <th style="width:15%">Status</th>
                     <th style="width: 30%">Actions</th>
                 </tr>
 
@@ -42,14 +42,14 @@
                         <td>${order.id}</td>
                         <td>${order.created}</td>
                         <td>${order.totalAmount} PLN</td>
-                        <td >${order.status}</td>
+                        <td>${order.status}</td>
                         <form:form method="post" modelAttribute="order">
-                        <td>
-                            <form:hidden path="id" value="${order.id}"/>
-                            <a href="${order.id}/orderDetails" class="btn btn-success">Szczegóły</a>
-                            <input type="submit" class="btn btn-primary" name="action" value="Akcept"/>
-                            <input type="submit" class="btn btn-danger" name="action" value="Odrzuć"/>
-                        </td>
+                            <td>
+                                <form:hidden path="id" value="${order.id}"/>
+                                <a href="${order.id}/orderDetails" class="btn btn-success">Szczegóły</a>
+                                <input type="submit" class="btn btn-primary" name="action" value="Akcept"/>
+                                <input type="submit" class="btn btn-danger" name="action" value="Odrzuć"/>
+                            </td>
                         </form:form>
                     </tr>
                 </c:forEach>

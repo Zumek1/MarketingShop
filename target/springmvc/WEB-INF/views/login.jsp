@@ -28,7 +28,8 @@
                 </div>
 
                 <c:if test="${isLogged == false}">
-                    <div class="error">Login failed</div><br><br>
+                    <div class="error">Login failed</div>
+                    <br><br>
                 </c:if>
 
                 <input type="submit" value="Login" class="btn btn-primary">

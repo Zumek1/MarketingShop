@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/headerRKP.jspf"%>
+<%@include file="/WEB-INF/views/headerRKP.jspf" %>
 <br>
 
 <div class="container">
@@ -31,7 +31,7 @@
                     <th>Imię i Nazwisko</th>
                     <th>Budzet</th>
                     <th>Liczba nowych zamówień</th>
-                    <th style = "width: 30%">Akcja</th>
+                    <th style="width: 30%">Akcja</th>
                 </tr>
 
                 <c:forEach items="${pms}" var="pms">
@@ -39,20 +39,20 @@
 
                     <c:forEach items="${orders}" var="order">
                         <c:if test="${order.przedstawicielMedyczny.id==(pms.id)&&order.status.equals('New order')}">
-                        <c:set var="total" value="${total+1}"></c:set>
-                    </c:if>
+                            <c:set var="total" value="${total+1}"></c:set>
+                        </c:if>
                     </c:forEach>
 
 
-                        <tr>
-                            <td>${pms.firstName} ${pms.lastName}</td>
-                            <td>${pms.budzet} PLN</td>
-                            <td>${total}</td>
-                            <td>
-                                <a href="${pms.id}/orderList" class="btn btn-success">Zamówienia</a>
-                                <a href="${pms.id}/message" class="btn btn-primary">Wiadomość</a>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>${pms.firstName} ${pms.lastName}</td>
+                        <td>${pms.budzet} PLN</td>
+                        <td>${total}</td>
+                        <td>
+                            <a href="${pms.id}/orderList" class="btn btn-success">Zamówienia</a>
+                            <a href="${pms.id}/message" class="btn btn-primary">Wiadomość</a>
+                        </td>
+                    </tr>
                 </c:forEach>
 
             </table>

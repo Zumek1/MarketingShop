@@ -18,7 +18,7 @@
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
 </head>
 <body>
-<%@include file="/WEB-INF/views/header.jspf"%>
+<%@include file="/WEB-INF/views/header.jspf" %>
 <br>
 <br>
 <div class="container">
@@ -32,21 +32,21 @@
                     <th>Id zamówienia</th>
                     <th>Data</th>
                     <th>Wartość</th>
-                    <th style="width:15%">Status </th>
+                    <th style="width:15%">Status</th>
                     <th style="width: 5%">Actions</th>
                 </tr>
 
                 <c:forEach items="${orders}" var="order">
 
-                        <tr>
-                            <td>${order.id}</td>
-                            <td>${order.created}</td>
-                            <td>${order.totalAmount} PLN</td>
-                            <td >${order.status}</td>
-                            <td>
-                                <a href="${order.id}/orderDetails" class="btn btn-success">Szczegóły</a>
-                            </td>
-                        </tr>
+                    <tr>
+                        <td>${order.id}</td>
+                        <td>${order.created}</td>
+                        <td>${order.totalAmount} PLN</td>
+                        <td>${order.status}</td>
+                        <td>
+                            <a href="${order.id}/orderDetails" class="btn btn-success">Szczegóły</a>
+                        </td>
+                    </tr>
                 </c:forEach>
 
             </table>
