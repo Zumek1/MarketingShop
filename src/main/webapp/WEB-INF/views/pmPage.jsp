@@ -16,6 +16,7 @@
     <script src="<c:url value="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"/>"></script>
     <link href="<c:url value="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>" rel="stylesheet">
     <link href="<c:url value="/resources/css/main.css"/>" rel="stylesheet">
+    <script type="text/JavaScript" src="/resources/js/popap.js"></script>
 </head>
 <body>
 <%@include file="/WEB-INF/views/header.jspf" %>
@@ -37,7 +38,7 @@
     <div class="card mt-4">
         <div class="card-body">
 
-            <table class="table table-hover">
+            <table id="dtBasic" class="table table-hover">
                 <tr>
 
                     <th>Nazwa produktu</th>

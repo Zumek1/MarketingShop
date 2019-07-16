@@ -15,7 +15,7 @@ public class ProductService {
     ProductRepo productRepo;
 
     public List<Product> findAll() {
-        return productRepo.findAll();
+        return productRepo.findAllSQL();
     }
     public Product findById(Long id){return productRepo.findOne(id);}
     public void update (Product product){
