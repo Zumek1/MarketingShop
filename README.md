@@ -1,2 +1,2 @@
-MarketingShop
+MarketingShop. 
 System przeznaczony do zamawiania materiałów marketingowych przez sieć sprzedaży w firmie farmaceutycznej. Aplikacja działająca na za zasadzie sklepu internetowego, weryfikująca aktualny poziom budżetu osoby zamawiającej produkty. System prezentuje aktualne wyniki sprzedażowe, materiały szkoleniowe oraz testy dedykowane pracownikom sprzedaży. Technologie: JAVA, Spring, Hibernate, MySQL, jQuery, Power BI
